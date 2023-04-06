@@ -1,0 +1,65 @@
+.menu a { 
+    color:  black;
+    text-decoration: none;/*убираем подчеркивание текста ссылок*/
+    display: block;  /*Все элементы на этом уровне начинаются с новой строки (вертикально) и, если не указано иное, растягиваются до ширины своего контейнера. Элементы прилегают вплотную друг к другу*/
+    text-align: center;
+    padding: 0 50px; /*внутренние отступы/поля со всех сторон элемента*/
+    height: 40px;
+    line-height: 40px; /*величину пространства между строками*/
+    transition: all .5s;
+     }
+  
+  .menu a:hover{
+    background: #DCDCDC;
+    border-radius: 10px; 
+    
+  }
+  
+  .menu li {
+    list-style: none;  /*устанавливает все свойства списка в одном объявлении, у него нет маркера*/
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:3px; /*Добавляем отступ у пунктов меню*/
+  
+  }
+  .m{  padding-top: 25px; } /*расстояние между верхним внутренним краем рамки элемента и его содержимым*/
+  .menu1 a { 
+    color:  black;
+    text-decoration: none;/*убираем подчеркивание текста ссылок*/
+    transition: all .5s;
+   padding: 10 70px;
+     }
+  .menu1 a:hover{
+    background: #DCDCDC;
+    border-radius: 10px; 
+    
+  }
+  .menu1 ul{
+    position: absolute; /*Элемент исчезает с того места, где он должен быть и позиционируется заново*/
+    left: 0;
+    top: 100%; /* высота дочернего элемента будет такой же, как и ширина родительского элемента, поскольку мы устанавливаем padding-top: 100%*/
+    display: none; /*элемент становится невидимым*/
+    padding: 0;
+  }
+  .menu1 li {
+    list-style: none; /*устанавливает все свойства списка в одном объявлении, у него нет маркера*/
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:90px; /*Добавляем отступ у пунктов меню*/
+    margin-left: 60px;
+  }
+  
+  .l{
+    border-bottom: 4px solid #DCDCDC; /*линия внизу*/
+  }
+  
+  form, button {
+      margin: 25px auto;
+      width: 500px;  /* Ширина текстового блока */
+  }
+   
+  .msg{
+    border: 2px solid #FFA500;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
