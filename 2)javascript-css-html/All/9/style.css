@@ -1,0 +1,159 @@
+@media screen and (min-width: 901px){
+.flex-container {
+/*генерирует flex-контейнер уровня блока*/
+background:black;
+display: -webkit-flex; 
+-webkit-flex-direction: row;
+display: flex; 
+flex-direction: row;
+margin: 10px;
+border-radius:15px;
+}
+.flex-container_1 {
+/*генерирует flex-контейнер уровня блока*/
+background:black;
+display: -webkit-flex; 
+-webkit-flex-direction: row;
+display: flex; 
+flex-direction: row;
+margin: 10px;
+border-radius:15px;
+flex-wrap: wrap;
+}
+body{
+	background: #ff6600;
+	font-size: 20px;
+}
+
+h3{
+	border-radius:10px;
+}
+
+.one{
+	margin:10px;
+	padding:10px;
+	background:linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.two{
+	margin:10px;
+	padding:10px;
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+.one_1{
+	width:21.5%;
+	margin:10px;
+	padding:10px;
+	background:linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.two_2{
+	width:21.5%;
+	margin:10px;
+	padding:10px;
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+.three{
+	margin:10px;
+	padding:10px;
+	background: linear-gradient(to top left, powderblue, #FF6666);
+}
+
+.top{
+	width:100%;
+	margin:10px;
+	padding:10px;
+	background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+
+.four{
+	display:none;
+}
+
+div{
+	border-radius:10px;
+}
+}
+
+
+
+@media only screen and (max-width: 900px){
+.flex-container {
+/*генерирует flex-контейнер уровня блока*/
+background:black;
+display: -webkit-flex; 
+-webkit-flex-direction: row;
+display: flex; 
+flex-direction: row;
+margin: 10px;
+border-radius:15px;
+}
+.flex-container_1 {
+/*генерирует flex-контейнер уровня блока*/
+background:black;
+display: -webkit-flex; 
+-webkit-flex-direction: row;
+display: flex; 
+flex-direction: row;
+margin: 10px;
+border-radius:15px;
+flex-wrap: wrap;
+}
+body{
+	background: #ff6600;
+	font-size: 20px;
+}
+
+h3{
+	border-radius:10px;
+}
+
+.one{
+	margin:10px;
+	padding:10px;
+	background:linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.two{
+	margin:10px;
+	padding:10px;
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+.one_1{
+	width:21.5%;
+	margin:10px;
+	padding:10px;
+	background:linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.two_2{
+	width:21.5%;
+	margin:10px;
+	padding:10px;
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+.three{
+	display:none;
+}
+
+.four{
+	margin:10px;
+	padding:10px;
+	background: linear-gradient(to top left, powderblue, #FF6666);	
+}
+
+.top{
+	width:100%;
+	margin:10px;
+	padding:10px;
+	background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+
+div{
+	border-radius:10px;
+}	
+} 

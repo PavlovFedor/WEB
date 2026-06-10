@@ -1,0 +1,25 @@
+body{
+	background: #ff6600;
+	font-size: 20px;
+}
+
+.forma{
+	background: #ff9933;
+	margin: 20px;
+	padding-left: 20px;
+	padding-top: 12px;
+	text-align: center;
+}
+
+select{
+    outline: none;
+    border: 1px solid green;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+label{
+	padding-right: 10px;
+}

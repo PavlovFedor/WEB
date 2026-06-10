@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Языки программирования</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="logotype.png" type="image/png">
+</head>
+<body>
+	<div class="forma">
+		<form action="#" enctype="multipart" >
+			<p><label for="name">Логин</label><input type="text" name="fio" placeholder="Введите ваше имя"></p>
+			<p><label for="name">Пароль</label><input type="text" name="fio" placeholder="Введите ваш пароль"></p>
+			
+			<p><label for="name">Группа</label>
+				<select name=”group_number” required>
+				<option value=”1” name="pi211">ПИб-211(1)</option>
+				<option value=”2” name="pi211">ПИб-211(2)</option>
+				<option value=”3” name="pi212">ПИб-212 </option>
+				</select>
+			</p>
+	<p><label for="name">Объем работы </label>
+<select name=”volume_number” required>
+	<option value=”3” name="3">3 </option>
+	<option value=”4” name="4">4 </option>
+	<option value=”5” name="5">5 </option>
+	<option value=”4” name="6">6 </option>
+	<option value=”7” name="7">7 </option>
+	<option value=”8” name="8">8 </option>
+	<option value=”9” name="9">9 </option>
+	<option value=”10” name="10">10 </option>
+</select>
+</p>
+
+<p><label for="name">Единый дизайн проекта</label>
+<input type="radio" name="design_yes" > да
+<input type="radio" name="design_yes" > нет
+</p>
+
+<p><label for="name">Оценка эстетичности </label>
+<input name="polzunok_est" type="range" min="0" max="10" step="1">
+</p>
+
+<p><label for="name">Оценка функциональности</label>
+<input name="polzunok_funk" type="range" min="0" max="10" step="1">
+</p>
+<p><label for="name">Кол-во CSS-файлов </label>
+<input name="chisla" type="number" min="1" max="10" step="1">
+</p>
+
+<p><label for="name">Индивидуальный дизайн главной страницы </label>
+<input type="radio" name="ind_yes"> да
+<input type="radio" name="ind_yes" > нет
+</p>
+
+<p><label for="name">Выражен </label>
+<select name=”expression” required>
+<option value=”11” name="graf">большим графическим элементом</option>
+<option value=”12” name="slide">слайдером</option>
+<option value=”13” name="blok">блоком с анимацией </option>
+<option value=”14” name="spec">специфическим отображением меню</option>
+<option value=”15” name="other">другое</option>
+</select>
+</p>
+
+<p><label for="name">Адаптивная верстка</label>
+<input type="radio" name="adaptive_yes" > да
+<input type="radio" name="adaptive_yes" > нет
+</p>
+
+<p><label for="name">Использование медиазапросов </label>
+<input type="radio" name="media_yes"> да
+<input type="radio" name="media_yes"> нет
+</p>
+
+<p><label for="name">Перекомпоновка блоков</label>
+<input type="radio"name="layout_yes" > да
+<input type="radio"name="layout_yes" > нет
+</p>
+
+<p><label for="name">Другое </label>
+<input type="text" name="others" >
+</p>
+
+<p><label for="name">Выпадающее меню </label>
+<input type="radio" name="dropdown_yes" > да
+<input type="radio" name="dropdown_yes"> нет
+</p>
+<p><label for="name">Эффект применен для главного меню или дополнительного: </label>
+<p>Главное <input type="checkbox" name="main"></p>
+<p>Дополнительное<input type="checkbox" name="additional"> номер страницы меню <input type="text" name="menu"></p>
+</p>
+
+<p><label for="name">Примененные эффекты :</label>
+<input type="radio" name="" >
+filter
+<input type="radio" name="" >
+content
+<input type="radio" name="" >
+display
+<input type="radio" name="" >
+background
+<input type="radio" name="" >
+text-align
+<input type="radio" name="" >
+border
+<input type="radio" name="" >
+color
+<input type="radio" name="" >
+hover
+
+<p> изменения цвета слов<input type="checkbox" name="color_word"></p>
+<p> изменения цвета фона<input type="checkbox" name="color_fon">
+<p> прозрачность<input type="checkbox" name="transparent"></p>
+<p>Другое <input type="checkbox" name="else"> <input type="text" name="else_text"></p>
+</p></p>
+
+<p><label for="name"> Соответствие требованиям:</label>
+<p>Переходы<input type="checkbox" name="transitions"> номер страницы <input type="text"
+ 
+name="transitions_text"></p>
+<p>Аннимация<input type="checkbox" name="annimation"> номер страницы <input type="text" name="annimation_text"></p>
+<p>Трансформации<input type="checkbox" name="transform"> номер страницы <input type="text" name="transform_text"></p>
+
+</p>
+
+<p><label for="name">Форма обратной связи:</label>
+<p>для строки<input type="checkbox" name="line"> номер страницы <input type="text"
+name="line_text"></p>
+<p>для пароля<input type="checkbox" name="parol"> номер страницы <input type="text" name="parol_text"></p>
+<p>для текстового блока<input type="checkbox" name="textblok"> номер страницы <input type="text" name="textblok_text"></p>
+<p>радиопереключатель<input type="checkbox" name="radioper"> номер страницы <input type="text" name="radioper_text"></p>
+<p>чекер<input type="checkbox" name="checker"> номер страницы <input type="text" name="checker_text"></p>
+<p>кнопки очистки формы и отправки<input type="checkbox" name="button"> номер страницы <input type="text" name="button_text"></p>
+</p>
+
+<p><label for="name">Использование тегов раздела документа (чтобы выбрать несколько зажмите ctrl) </label>
+<select name=”disan” multiple required>
+<option value=”21” name="header">header</option>
+<option value=”22” name="nav">nav</option>
+<option value=”23” name="foot">footer</option>
+<option value=”24” name="sect">section</option>
+<option value=”25” name="article">article</option>
+<option value=”26” name="aside">aside</option>
+</select>
+</p>
+<p><label for="name">Выполнение дополнительной лабораторной №10 </label>
+<input type="radio" name="dop_yes"> да
+<input type="radio" name="dop_yes"> нет
+</p>
+<p>Комментарий<Br>
+<textarea name="comment" cols="40" rows="3"></textarea></p>
+
+
+
+
+<p><input type="submit" value="Отправить" name="sub.form"> <input type="reset" value="Сбросить" ></p>
+		</form>
+	</div>
+
+</body>
+</html>

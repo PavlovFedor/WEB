@@ -1,0 +1,56 @@
+body{
+	font-family: 'Arsenal', serif;
+	margin: 0;
+	background: #feab60;
+}
+header{
+	display: flex;
+	border-bottom: 3px solid #f3e9e7;
+	height: 147px;
+	
+}
+.head{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.header{
+	font-size:39px ;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 0 ;
+	text-align: center;
+}
+.nav{
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+.items{
+	padding-right: 190px;
+	font-weight: 700;
+	width: 100px;
+	font-size: 28px;
+	color: #fff;
+	border-radius: 2px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 160px;
+	font-weight: 400;
+	text-decoration: none;
+	transition: background 0.1s linear;
+}
+
+.flex-container_1 {
+/*генерирует flex-контейнер уровня блока*/
+background:black;
+display: -webkit-flex; 
+-webkit-flex-direction: row;
+display: flex; 
+flex-direction: row;
+margin: 10px;
+border-radius:15px;
+flex-wrap: wrap;
+}
